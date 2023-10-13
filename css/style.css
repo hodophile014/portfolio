@@ -50,6 +50,12 @@
     header nav .branding{
         margin-right: 3rem;
     }
+    header nav .branding h1{
+        color: var(--pure);
+    }
+    header nav .branding h1:hover{
+        color: var(--ternary);
+    }
     .pic{
         padding: 3rem 0;
 
@@ -370,11 +376,13 @@ section.certificates .card-wrapper .card .card-content a.read-more:hover{
 section.contact .card-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3rem;
+    grid-gap: 2rem;
 
 }
 section.contact .card-wrapper .card{
     text-align: center;
+    width: 300px;
+   background: var(--pure);
 
 }
 section.contact .card-wrapper .card img{
@@ -388,7 +396,7 @@ section.contact .card-wrapper .card h1{
 }
 section.contact .card-wrapper .card h6{
     font-weight: 400;
-    font-size: rem;
+    font-size: 1rem;
     color: var(--ternary);
 }
 .contact-images{
